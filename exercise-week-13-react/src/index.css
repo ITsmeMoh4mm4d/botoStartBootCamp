@@ -117,8 +117,9 @@ span {
   background-color: #9ca3af;
   color: var(--text-h);
   border-radius: 16px;
+  border-bottom: 4px solid #9ca3af;
   &:hover {
-    border-bottom: 4px solid var(--accent-border);
+    border-color: var(--accent-border);
     color: var(--bg);
     cursor: pointer;
   }
